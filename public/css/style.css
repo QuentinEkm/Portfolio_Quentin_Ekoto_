@@ -1,7 +1,37 @@
-body {
-  background-image: url(https://www.shutterstock.com/nl/video/clip-1086084950-3d-render-person-wearing-vr-glasses-transitions);
-background-position: auto;
-background-size: cover;
-   
+.introvid {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+}
+
+.introvid a{
+    
+    text-align: center;
+    font-family: serif, Arial, Helvetica, sans-serif;
+    z-index: 1;
+    font-size: 1rem;
+    opacity: 0.8;
+    color: rgba(0, 0, 0, 0.725);
+    text-decoration: none;
+}
+.videocontainer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.coloroverlay{
+    position:absolute;
+    top: 0;
+    left: 0;
+    background-color: lightgray;
+    width: 100%;
+    height: 100vh;
+    opacity: 0.5;
 
 }
